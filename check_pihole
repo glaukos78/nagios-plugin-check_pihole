@@ -14,7 +14,7 @@ class STATUS(enum.Enum):
     CRITICAL = 2
     UNKNOWN  = 3
 
- API_KEY = 'ENTER API KEY FROM PIHOLE'
+ API_KEY = '<ENTER API KEY FROM PIHOLE>'
  DEFAULT_URL = 'http://{host}/admin/api.php?summaryRaw'+'&auth='+str(API_KEY)
 
 def understand_args():
